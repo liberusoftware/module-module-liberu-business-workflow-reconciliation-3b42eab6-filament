@@ -1,6 +1,6 @@
 {
-  "name": "liberusoftware/boilerplate-filament",
-  "description": "Liberu reusable Filament presentation module foundation",
+  "name": "liberusoftware/module-liberu-business-workflow-reconciliation-3b42eab6-filament",
+  "description": "Liberu Business Workflow Reconciliation Filament presentation module skeleton",
   "type": "liberu-module",
   "license": "MIT",
   "require": {
@@ -9,15 +9,15 @@
   },
   "autoload": {
     "psr-4": {
-      "Liberu\\Presentation\\BoilerplateFilament\\": "src/"
+      "Liberu\\Presentation\\Capabilityf7c62b3b57f9\\": "src/"
     }
   },
   "scripts": {
-    "check": "@php -l src/BoilerplatePlugin.php"
+    "check": "@php -l src/CapabilityPlugin.php"
   },
   "extra": {
     "liberu": {
-      "name": "boilerplate-filament"
+      "name": "module-liberu-business-workflow-reconciliation-3b42eab6-filament"
     }
   }
 }
